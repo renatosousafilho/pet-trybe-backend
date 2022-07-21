@@ -12,8 +12,6 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/ping', (req, res) => res.status(200).send('pong'));
-
 app.use('/login', authRouter);
 
 app.use('/users', usersRouter);
