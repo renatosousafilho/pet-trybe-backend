@@ -2,6 +2,8 @@ require('express-async-errors');
 
 const express = require('express');
 
+const cors = require('cors');
+
 const usersRouter = require('./routers/usersRouter');
 const petsRouter = require('./routers/petsRouter');
 const authRouter = require('./routers/authRouter');
@@ -9,6 +11,8 @@ const authRouter = require('./routers/authRouter');
 const authController = require('./controllers/authController');
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 
