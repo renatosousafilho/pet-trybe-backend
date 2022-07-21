@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "9214f6c5-ab44-4824-9f79-2b4c2c5d6601",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "e4082277-62ba-4d7b-9a19-615efc0e7944",
+    "name": "Listar",
+    "url": "{{base_url}}/users",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-07-07T20:49:18.039Z",
+    "modified": "2022-07-11T20:53:27.626Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoxLCJlbWFpbCI6ImpvaG5kb2VAZ21haWwuY29tIiwibmFtZSI6IkpvaG4gRG9lIn0sImlhdCI6MTY1NzU3MjIyM30.XsCPy_z03EFpQanvDFa2PCOYJtOmqEKaeWajIU_7AX"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fa56bb41-7c44-45e6-846e-ac46e4f7c33b",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "e4082277-62ba-4d7b-9a19-615efc0e7944",
+    "name": "Cadastrar",
+    "url": "{{base_url}}/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-07-07T20:52:56.047Z",
+    "modified": "2022-07-12T19:41:05.842Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"\",\n    \"name\": \"\",\n    \"phone\": \"{{#string}}\",\n    \"passwordHash\": \"ch4ng3m3\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "941262b6-9863-44ad-9c03-c3b5fb701f94",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "e4082277-62ba-4d7b-9a19-615efc0e7944",
+    "name": "Buscar por id",
+    "url": "{{base_url}}/users/1",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-07-07T20:59:02.455Z",
+    "modified": "2022-07-08T22:38:36.925Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "33d8a06e-2483-4a21-9bc7-7cc97b664f22",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+    "name": "Cadastrar",
+    "url": "{{base_url}}/pets",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-07-08T20:09:09.191Z",
+    "modified": "2022-07-08T20:11:19.923Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"{{#string}}\",\n    \"userId\": 1\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e758b7cd-ee3f-44a4-98b1-103733ccd2f3",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+    "name": "Listar",
+    "url": "{{base_url}}/pets",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-07-08T20:13:05.237Z",
+    "modified": "2022-07-11T20:58:57.031Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoxLCJlbWFpbCI6ImpvaG5kb2VAZ21haWwuY29tLmJyIiwibmFtZSI6IkpvaG4gRG9lIn0sImlhdCI6MTY1NzU3MjIyM30.zyDGLbaqUz224nuPkgbNYOfKYDe9Fg7Gv0Kh8H6Q2JE"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3988f6af-6077-46f7-82f7-bf0ca0e24230",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "e4082277-62ba-4d7b-9a19-615efc0e7944",
+    "name": "Listar Atendimentos",
+    "url": "{{base_url}}/users/1/attendances",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-07-08T21:32:58.597Z",
+    "modified": "2022-07-08T21:33:50.008Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "90816e83-58b9-4121-b3f5-3e5e49b156af",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+    "name": "Editar",
+    "url": "{{base_url}}/pets/1",
+    "method": "PUT",
+    "sortNum": 70000,
+    "created": "2022-07-08T22:29:28.434Z",
+    "modified": "2022-07-08T22:34:44.207Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"{{#string}}\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "76664f59-eb02-493a-80b5-a817e675b210",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+    "name": "Buscar por id",
+    "url": "{{base_url}}/pets/1",
+    "method": "GET",
+    "sortNum": 45000,
+    "created": "2022-07-08T22:38:39.280Z",
+    "modified": "2022-07-08T22:39:40.341Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1aa08495-c21b-45a0-8c0e-4c2310a0b4f3",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+    "name": "Deletar",
+    "url": "{{base_url}}/pets/1",
+    "method": "DELETE",
+    "sortNum": 47500,
+    "created": "2022-07-08T22:38:48.694Z",
+    "modified": "2022-07-08T22:39:06.843Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "50582810-57f9-45fd-b1e8-7b72c8a66a90",
+    "colId": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "containerId": "5b2b76d8-30b7-4394-9c78-7eae309b1f4f",
+    "name": "Login",
+    "url": "{{base_url}}/login",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2022-07-11T20:12:23.655Z",
+    "modified": "2022-07-11T20:38:00.667Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"johndoe@gmail.com\",\n    \"password\": \"dflasdkjflkasdjlfkf\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

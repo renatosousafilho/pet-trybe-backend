@@ -1,0 +1,36 @@
+{
+  "name": "pet-trybe-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "debug": "nodemon src/index.js",
+    "test": "mocha --timeout 50000 --color ./tests/**/*$NAME*.test.js --exit",
+    "test:coverage": "nyc --all mocha tests/**/*.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "nyc": "^15.1.0",
+    "sequelize-cli": "^6.4.1",
+    "sinon": "^14.0.0"
+  }
+}

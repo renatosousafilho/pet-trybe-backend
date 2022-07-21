@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "c7f03e76-5932-4658-8733-a9bf7b2ee307",
+    "name": "PetTrybe",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-07-08T20:09:18.910Z",
+    "modified": "2022-07-08T20:09:39.395Z",
+    "data": [
+      {
+        "name": "base_url",
+        "value": "http://localhost:3000"
+      }
+    ]
+  }
+]

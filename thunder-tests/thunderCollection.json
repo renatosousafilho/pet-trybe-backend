@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "89a11d27-10e4-4748-ae50-6810d6e38e95",
+    "colName": "PetTrybe",
+    "created": "2022-07-07T20:49:08.091Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "e4082277-62ba-4d7b-9a19-615efc0e7944",
+        "name": "Users",
+        "containerId": "",
+        "created": "2022-07-07T20:49:13.532Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "a164334d-551a-437d-8c0e-7d1a6f2e14a6",
+        "name": "Pets",
+        "containerId": "",
+        "created": "2022-07-08T20:09:00.553Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "5b2b76d8-30b7-4394-9c78-7eae309b1f4f",
+        "name": "Auth",
+        "containerId": "",
+        "created": "2022-07-11T20:12:19.369Z",
+        "sortNum": 30000
+      }
+    ]
+  }
+]
