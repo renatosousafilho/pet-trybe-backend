@@ -16,6 +16,8 @@ app.use(cors());
 
 app.use(express.json());
 
+app.get('/ping', (_req, res) => res.status(200).send('pong'));
+
 app.use('/login', authRouter);
 
 app.use('/users', usersRouter);
